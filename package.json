@@ -27,5 +27,10 @@
     "grunt-mocha-test": "^0.12.7",
     "grunt-script-link-tags": "^1.0.2",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "csv": "^0.4.6",
+    "csv-parse": "^1.1.0",
+    "pad": "^1.0.0"
   }
 }
