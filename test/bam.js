@@ -23,6 +23,6 @@ describe('Bam', () => {
       expect(Bam.binaryToBipolar(binaryArr)[0]).to.equal(1);
       expect(Bam.binaryToBipolar(binaryArr)[1]).to.equal(-1);
       expect(Bam.binaryToBipolar(binaryArr)[2]).to.equal(-1);
-    })
+    });
   });
 });
