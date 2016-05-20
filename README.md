@@ -14,7 +14,7 @@ npm install
 ```
 
 ## To run the tests
-In this project we used (mocha)[https://mochajs.org] for unit tests. To run the tests issue the command seen below.
+In this project we used [mocha](https://mochajs.org) for unit tests. To run the tests issue the command seen below.
 
 ```
 mocha
