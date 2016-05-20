@@ -1,6 +1,6 @@
 'use strict';
 
-const Bam = require('./bam').Bam;
+const Bam = require('./bam')
 const fs = require('fs');
 const csvParse = require('csv-parse/lib/sync');
 const Utils = require('./utils');
@@ -29,6 +29,8 @@ words.findWordByDenormalizedBinary = function (binaryArray) {
   });
 };
 
+csvData = csvData.slice(0, 1);
+
 csvData.forEach(tokens => {
   words.push({
     denormalized: tokens[0],
@@ -51,9 +53,7 @@ function gaaf(binaryArray) {
 // sample recall
 let once = words[0];
 console.log(gaaf(words[0].normalBinary));
-console.log(gaaf(words[1].denormalizedBinary));
-console.log(gaaf(words[9].denormalizedBinary));
-//console.log(bam.M);
+console.log(gaaf(words[0].denormalizedBinary));
 //console.log(bam.M);
 //console.log(bam.M);
 // console.log(bam.getAssociation(once.normalBinary));

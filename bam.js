@@ -1,6 +1,6 @@
 'use strict';
 
-class Bam {
+module.exports = class Bam {
   constructor(data) {
     this.AB = [];
 
@@ -60,4 +60,3 @@ class Bam {
   }
 }
 
-module.exports = { Bam };

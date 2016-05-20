@@ -9,7 +9,6 @@ describe('Utils', () => {
     let chunkArray = Utils.chunkArray(testCase, 8);
     let binaryArrayToText = Utils.binaryArrayToText(testCase);
     //console.log(chunkArray);
-    console.log(binaryArrayToText);
   });
 
   describe('.binaryArrayToText', () => {
