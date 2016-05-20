@@ -23,3 +23,7 @@ mocha
 ## Dev
 Some build tasks for easier development are included in this project, grunt was used for this. Some grunt commands used are `watch, scripts, eshint`.
 
+
+## Run the test program
+We have created a test program for the purpose of word normalization. To run this program issue the command `node word-normalizer.js`. This uses a csv input to build the BAM and then issues a set of recall.
+
